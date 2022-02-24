@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=yes" />
+  <link rel="icon" href="<%= BASE_URL %>image2.png">
+  <title>玉磨铁路备件智能管理系统</title>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    ul li {
+      list-style: none;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    ul li a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    // 获取浏览器窗口文档显示区域的宽度，不包括滚动条。
+    const cliWidth = document.documentElement.clientWidth;
+    // 浏览器窗口宽度大于768，也就是非手机浏览器的窗口，iPad、电脑等
+    if (cliWidth > 768) {
+      let userAgent = navigator.userAgent; // 取得浏览器的userAgent字符串
+
+      let isChrome = navigator.userAgent.indexOf('Chrome') > -1 || navigator.userAgent.indexOf('WebKit') > -
+      1; // 是否是谷歌浏览器内核
+
+      // 是的话
+      if (isChrome) {
+        // window.devicePixelRatio 缩放比例   大于1  说明放大了
+        if (window.devicePixelRatio > 1) {
+          // 就把整个页面缩小
+          let s = Number(1 / window.devicePixelRatio);
+          //  zoom  设置或者检索对象的缩放比例
+          document.body.style.zoom = s;
+        } else {
+          document.body.style.zoom = 1;
+        };
+      }
+    } else {
+      console.log('999999');
+    }
+  </script>
+</body>
+
 </html>
