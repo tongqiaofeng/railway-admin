@@ -5,8 +5,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    baseUrl: 'http://192.168.0.164:8088/app/yumo/api',
-    socketUrl: '192.168.0.164:8088/app/yumo/api/socketServer/',
+    baseUrl: 'http://192.168.0.164:8083/app/yumo/api',
+    socketUrl: '192.168.0.164:8083/app/yumo/api/socketServer/',
     // socketUrl: '192.168.0.122:9999',
     // 正式
     // baseUrl: 'http://test.wistechx.cn:9001/app/yumo/api',
