@@ -1,0 +1,22 @@
+Release history for vue-svg-pan-zoom
+
+v1.1.0 2019-09-28
+
+- exposes some of svg-pan-zoom api. (alessiocarrafa, GH#7)
+
+v1.0.1 2019-05-26
+
+- corrects the thumbnail docs in the README. (GH#6)
+
+v1.0.0 2019-04-30
+
+- reworks thumbnail logic to be more vue-like.
+- upgrade svg-pan-zoom dependency to 3.6.0.
+
+v0.1.0 2018-03-24
+
+- component can now access the underlying svgpanzoom js object. (GH#1)
+
+
+
+

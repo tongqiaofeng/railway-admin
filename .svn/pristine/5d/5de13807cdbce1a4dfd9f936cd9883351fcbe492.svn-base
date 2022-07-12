@@ -1,0 +1,52 @@
+{
+  "_from": "vue-resize-sensor@^2.0.0",
+  "_id": "vue-resize-sensor@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-W+y2EAI/BxS4Vlcca9scQv8ifeBFck56DRtSwWJ2H4Cw1GLNUYxiZxUHHkuzuI5JPW/cYtL1bPO5xPyEXx4LmQ==",
+  "_location": "/vue-resize-sensor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-resize-sensor@^2.0.0",
+    "name": "vue-resize-sensor",
+    "escapedName": "vue-resize-sensor",
+    "rawSpec": "^2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0"
+  },
+  "_requiredBy": [
+    "/vue-pdf"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-resize-sensor/-/vue-resize-sensor-2.0.0.tgz",
+  "_shasum": "3a587fd6802e1688709cf2c5aadae7a0075952bf",
+  "_spec": "vue-resize-sensor@^2.0.0",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin\\node_modules\\vue-pdf",
+  "author": {
+    "name": "Franck FREIBURGER"
+  },
+  "bugs": {
+    "url": "https://github.com/FranckFreiburger/vue-resize-sensor/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "detect container resizing",
+  "homepage": "https://github.com/FranckFreiburger/vue-resize-sensor#readme",
+  "keywords": [
+    "vue2",
+    "detect",
+    "element",
+    "resize"
+  ],
+  "license": "MIT",
+  "main": "src/resize-sensor.vue",
+  "name": "vue-resize-sensor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranckFreiburger/vue-resize-sensor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}

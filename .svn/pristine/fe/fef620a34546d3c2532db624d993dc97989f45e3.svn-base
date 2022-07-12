@@ -1,0 +1,61 @@
+{
+  "_from": "sass@^1.26.5",
+  "_id": "sass@1.32.4",
+  "_inBundle": false,
+  "_integrity": "sha1-MIvyndf1PUSuTwZYDpqRCtmqQR4=",
+  "_location": "/sass",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "sass@^1.26.5",
+    "name": "sass",
+    "escapedName": "sass",
+    "rawSpec": "^1.26.5",
+    "saveSpec": null,
+    "fetchSpec": "^1.26.5"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/sass/download/sass-1.32.4.tgz?cache=0&sync_timestamp=1610415207470&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass%2Fdownload%2Fsass-1.32.4.tgz",
+  "_shasum": "308bf29dd7f53d44ae4f06580e9a910ad9aa411e",
+  "_spec": "sass@^1.26.5",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin",
+  "author": {
+    "name": "Natalie Weizenbaum",
+    "email": "nweiz@google.com",
+    "url": "https://github.com/nex3"
+  },
+  "bin": {
+    "sass": "sass.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sass/dart-sass/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chokidar": ">=2.0.0 <4.0.0"
+  },
+  "deprecated": false,
+  "description": "A pure JavaScript implementation of Sass.",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "homepage": "https://github.com/sass/dart-sass",
+  "keywords": [
+    "style",
+    "scss",
+    "sass",
+    "preprocessor",
+    "css"
+  ],
+  "license": "MIT",
+  "main": "sass.dart.js",
+  "name": "sass",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sass/dart-sass.git"
+  },
+  "version": "1.32.4"
+}

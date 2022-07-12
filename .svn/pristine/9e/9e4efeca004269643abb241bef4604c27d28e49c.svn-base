@@ -1,0 +1,75 @@
+Arguments: 
+  /home/yanick/.config/nvm/10.14.2/bin/node /usr/share/yarn/bin/yarn.js add vue-cli-service
+
+PATH: 
+  ./node_modules/.bin/:/home/yanick/.plenv/shims:/home/yanick/.plenv/bin:/home/yanick/.config/nvm/10.14.2/bin:/home/yanick/.plenv/shims:/home/yanick/.cargo/bin:/home/yanick/.sdkman/candidates/groovy/current/bin:/home/yanick/.plenv/shims:/home/yanick/.plenv/shims:/home/yanick/.plenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:~/work/git-achievements:/home/yanick/bin:/home/yanick/bin:/home/yanick/bin:/home/yanick/.plenv/bin:/home/yanick/.rvm/bin:~/work/git-achievements:/home/yanick/bin:/home/yanick/bin:/home/yanick/bin:/home/yanick/.plenv/bin:/home/yanick/.local/go/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/vue-cli-service: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:134675:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:135658:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "vue-svg-pan-zoom",
+    "version": "1.0.1",
+    "description": "Vue component for svg-pan-zoom",
+    "main": "dist/index.js",
+    "author": "Yanick Champoux",
+    "license": "MIT",
+    "keywords": [
+      "svg",
+      "vuejs"
+    ],
+    "homepage": "https://github.com/yanick/vue-svg-pan-zoom",
+    "bugs": {
+      "url": "https://github.com/yanick/vue-svg-pan-zoom/issues"
+    },
+    "devDependencies": {
+      "@babel/cli": "7.4.3",
+      "@babel/core": "7.4.3",
+      "@babel/preset-env": "7.4.3",
+      "@storybook/addon-actions": "5.0.10",
+      "@storybook/addon-knobs": "5.0.10",
+      "@storybook/addons": "5.0.10",
+      "@storybook/vue": "5.0.10",
+      "babel-loader": "8.0.5",
+      "babel-preset-vue": "2.0.2",
+      "poi": "12.6.6",
+      "vue": "2.5.13",
+      "vue-loader": "15.7.0",
+      "vue-template-compiler": "2.5.13"
+    },
+    "dependencies": {
+      "eslint-plugin-vue": "^5.2.3",
+      "svg-pan-zoom": "3.6.0"
+    },
+    "scripts": {
+      "build": "vue-cli-service build -t wc --name vue-svg-pan-zoom src/*.vue",
+      "storybook": "start-storybook -p 9009 -s public",
+      "build-storybook": "build-storybook -s public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

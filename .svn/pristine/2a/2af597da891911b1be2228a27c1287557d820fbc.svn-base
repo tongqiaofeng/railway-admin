@@ -1,0 +1,66 @@
+{
+  "_from": "vue-pdf",
+  "_id": "vue-pdf@4.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-GpAbZfM48Hom1R8f4XL5ZzoVBLlbyy+4z0VYmTQORVOSieVIIu+XtnNl0RY6EXg60Qni6T6nIgrmsCcCkWv39A==",
+  "_location": "/vue-pdf",
+  "_phantomChildren": {
+    "@types/json-schema": "7.0.6",
+    "ajv": "6.12.6",
+    "ajv-keywords": "3.5.2",
+    "big.js": "5.2.2",
+    "emojis-list": "3.0.0",
+    "json5": "2.1.3"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-pdf",
+    "name": "vue-pdf",
+    "escapedName": "vue-pdf",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-pdf/-/vue-pdf-4.2.0.tgz",
+  "_shasum": "d553e2a46704f9acd15479d8cf32c73e90989b77",
+  "_spec": "vue-pdf",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin",
+  "author": {
+    "name": "Franck FREIBURGER"
+  },
+  "bugs": {
+    "url": "https://github.com/FranckFreiburger/vue-pdf/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "pdfjs-dist": "^2.5.207",
+    "raw-loader": "^4.0.1",
+    "vue-resize-sensor": "^2.0.0",
+    "worker-loader": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "vue.js pdf viewer",
+  "homepage": "https://github.com/FranckFreiburger/vue-pdf#readme",
+  "keywords": [
+    "vue.js",
+    "pdf",
+    "viewer"
+  ],
+  "license": "MIT",
+  "main": "src/vuePdfNoSss.vue",
+  "name": "vue-pdf",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranckFreiburger/vue-pdf.git"
+  },
+  "scripts": {},
+  "version": "4.2.0"
+}

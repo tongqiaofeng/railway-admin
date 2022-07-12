@@ -1,0 +1,61 @@
+{
+  "_from": "@vue/cli-plugin-vuex@~4.5.0",
+  "_id": "@vue/cli-plugin-vuex@4.5.10",
+  "_inBundle": false,
+  "_integrity": "sha1-utH8U40J3w5nRUWU9wd4LWNmfzk=",
+  "_location": "/@vue/cli-plugin-vuex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@vue/cli-plugin-vuex@~4.5.0",
+    "name": "@vue/cli-plugin-vuex",
+    "escapedName": "@vue%2fcli-plugin-vuex",
+    "scope": "@vue",
+    "rawSpec": "~4.5.0",
+    "saveSpec": null,
+    "fetchSpec": "~4.5.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@vue/cli-service"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.10.tgz?cache=0&sync_timestamp=1609924492231&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-vuex%2Fdownload%2F%40vue%2Fcli-plugin-vuex-4.5.10.tgz",
+  "_shasum": "bad1fc538d09df0e67454594f707782d63667f39",
+  "_spec": "@vue/cli-plugin-vuex@~4.5.0",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin",
+  "author": {
+    "name": "Evan You"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs/vue-cli/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Vuex plugin for vue-cli",
+  "devDependencies": {
+    "@vue/cli-test-utils": "^4.5.10"
+  },
+  "gitHead": "5bc8c80deda476f54b177c0b09c036425ad3ce46",
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-vuex#readme",
+  "keywords": [
+    "vue",
+    "cli",
+    "vuex"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vue/cli-plugin-vuex",
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git",
+    "directory": "packages/@vue/cli-plugin-vuex"
+  },
+  "version": "4.5.10"
+}

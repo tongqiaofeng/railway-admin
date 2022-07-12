@@ -1,0 +1,66 @@
+{
+  "_from": "@vue/cli-plugin-eslint@~4.5.0",
+  "_id": "@vue/cli-plugin-eslint@4.5.10",
+  "_inBundle": false,
+  "_integrity": "sha1-uhUCktfVHJbOGofyeC8F9kSg60s=",
+  "_location": "/@vue/cli-plugin-eslint",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@vue/cli-plugin-eslint@~4.5.0",
+    "name": "@vue/cli-plugin-eslint",
+    "escapedName": "@vue%2fcli-plugin-eslint",
+    "scope": "@vue",
+    "rawSpec": "~4.5.0",
+    "saveSpec": null,
+    "fetchSpec": "~4.5.0"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-4.5.10.tgz",
+  "_shasum": "ba150292d7d51c96ce1a87f2782f05f644a0eb4b",
+  "_spec": "@vue/cli-plugin-eslint@~4.5.0",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin",
+  "author": {
+    "name": "Evan You"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs/vue-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.5.10",
+    "eslint-loader": "^2.2.1",
+    "globby": "^9.2.0",
+    "inquirer": "^7.1.0",
+    "webpack": "^4.0.0",
+    "yorkie": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "eslint plugin for vue-cli",
+  "gitHead": "5bc8c80deda476f54b177c0b09c036425ad3ce46",
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-eslint#readme",
+  "keywords": [
+    "vue",
+    "cli",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vue/cli-plugin-eslint",
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0",
+    "eslint": ">= 1.6.0 < 7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vue-cli.git",
+    "directory": "packages/@vue/cli-plugin-eslint"
+  },
+  "version": "4.5.10"
+}

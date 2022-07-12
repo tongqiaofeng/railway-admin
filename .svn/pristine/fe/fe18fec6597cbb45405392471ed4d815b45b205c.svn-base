@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="format-detection" content="telephone=yes"><link rel="icon" href="image2.png"><title>玉磨铁路备件智能管理系统</title><style>body {
+      margin: 0;
+    }
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    ul li {
+      list-style: none;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    ul li a {
+      text-decoration: none;
+    }</style><link href="static/css/chunk-176757e6.1b60eff6.css" rel="prefetch"><link href="static/css/chunk-2eed7c6d.5823f2c4.css" rel="prefetch"><link href="static/css/chunk-690d94c2.95957f58.css" rel="prefetch"><link href="static/css/chunk-6a41e531.1b4080b3.css" rel="prefetch"><link href="static/js/chunk-176757e6.f481b6cf.js" rel="prefetch"><link href="static/js/chunk-2eed7c6d.a5107ace.js" rel="prefetch"><link href="static/js/chunk-690d94c2.0ebc538d.js" rel="prefetch"><link href="static/js/chunk-6a41e531.0c5234e0.js" rel="prefetch"><link href="static/css/app.a39be46b.css" rel="preload" as="style"><link href="static/css/chunk-vendors.15ae93ce.css" rel="preload" as="style"><link href="static/js/app.943e03a0.js" rel="preload" as="script"><link href="static/js/chunk-vendors.1c2f3c7d.js" rel="preload" as="script"><link href="static/css/chunk-vendors.15ae93ce.css" rel="stylesheet"><link href="static/css/app.a39be46b.css" rel="stylesheet"></head><body><div id="app"></div><script>// 获取浏览器窗口文档显示区域的宽度，不包括滚动条。
+    const cliWidth = document.documentElement.clientWidth;
+    // 浏览器窗口宽度大于768，也就是非手机浏览器的窗口，iPad、电脑等
+    if (cliWidth > 768) {
+      let userAgent = navigator.userAgent; // 取得浏览器的userAgent字符串
+
+      let isChrome = navigator.userAgent.indexOf('Chrome') > -1 || navigator.userAgent.indexOf('WebKit') > -
+      1; // 是否是谷歌浏览器内核
+
+      // 是的话
+      if (isChrome) {
+        // window.devicePixelRatio 缩放比例   大于1  说明放大了
+        if (window.devicePixelRatio > 1) {
+          // 就把整个页面缩小
+          let s = Number(1 / window.devicePixelRatio);
+          //  zoom  设置或者检索对象的缩放比例
+          document.body.style.zoom = s;
+        } else {
+          document.body.style.zoom = 1;
+        };
+      }
+    } else {
+      console.log('999999');
+    }</script><script src="static/js/chunk-vendors.1c2f3c7d.js"></script><script src="static/js/app.943e03a0.js"></script></body></html>

@@ -1,0 +1,67 @@
+{
+  "_from": "vue-svg-pan-zoom",
+  "_id": "vue-svg-pan-zoom@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-H/KuL+zuSsZtQETFyE68Ms6YfMjfvLCtBKYcFc/o2NZsP6dlV3+XJfywjqZJKPsFUYJkFvX6XgNe+BKUqnkzzQ==",
+  "_location": "/vue-svg-pan-zoom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-svg-pan-zoom",
+    "name": "vue-svg-pan-zoom",
+    "escapedName": "vue-svg-pan-zoom",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-svg-pan-zoom/-/vue-svg-pan-zoom-1.1.0.tgz",
+  "_shasum": "7f104366a51d6fa3d4b0f798788c05296d811436",
+  "_spec": "vue-svg-pan-zoom",
+  "_where": "D:\\aa-tong\\my-projects\\railway-admin",
+  "author": {
+    "name": "Yanick Champoux"
+  },
+  "bugs": {
+    "url": "https://github.com/yanick/vue-svg-pan-zoom/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "svg-pan-zoom": "3.6.0"
+  },
+  "deprecated": false,
+  "description": "Vue component for svg-pan-zoom",
+  "devDependencies": {
+    "@babel/cli": "7.4.3",
+    "@babel/core": "7.4.3",
+    "@babel/preset-env": "7.4.3",
+    "@storybook/addon-actions": "5.0.10",
+    "@storybook/addon-knobs": "5.0.10",
+    "@storybook/addons": "5.0.10",
+    "@storybook/vue": "5.0.10",
+    "babel-loader": "8.0.5",
+    "babel-preset-vue": "2.0.2",
+    "poi": "12.6.6",
+    "vue": "2.5.13",
+    "vue-loader": "15.7.0",
+    "vue-template-compiler": "2.5.13"
+  },
+  "homepage": "https://github.com/yanick/vue-svg-pan-zoom",
+  "keywords": [
+    "svg",
+    "vuejs"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "vue-svg-pan-zoom",
+  "scripts": {
+    "build": "poi src/index.js --format cjs -d dist/",
+    "build-storybook": "build-storybook -s public",
+    "storybook": "start-storybook -p 9009 -s public"
+  },
+  "version": "1.1.0"
+}
