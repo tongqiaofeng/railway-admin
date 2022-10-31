@@ -8,11 +8,12 @@ export default new Vuex.Store({
     baseUrl: 'http://192.168.0.164:8083/app/yumo/api',
     socketUrl: '192.168.0.164:8083/app/yumo/api/socketServer/',
     // socketUrl: '192.168.0.122:9999',
+    // baseUrl: 'http://hk.wistechx.cn:8086/app/yumo/api',
+    // socketUrl: 'hk.wistechx.cn:8086/app/yumo/api/socketServer/',
     // 正式
     // baseUrl: 'http://test.wistechx.cn:9001/app/yumo/api',
     // socketUrl: 'test.wistechx.cn:9001/app/yumo/api/socketServer/',
-    // baseUrl: 'http://hk.wistechx.cn:8086/app/yumo/api',
-    // socketUrl: 'hk.wistechx.cn:8086/app/yumo/api/socketServer/',
+
     isLogin: false,
     token: null,
     nick: '', //用户昵称
