@@ -814,7 +814,9 @@ export default {
     reConnectWebSocket() {
       let token = sessionStorage.getItem("token");
       // 建立到服务端websocket连接
-      var ws = new WebSocket("ws://" + this.$store.state.socketUrl, [token]);
+      // http协议使用ws,https使用wss
+      // var ws = new WebSocket("ws://" + this.$store.state.socketUrl, [token]);
+      var ws = new WebSocket(this.$store.state.socketUrl, [token]);
       // 断开连接重连
       ws.onclose = () => {
         setTimeout(() => {

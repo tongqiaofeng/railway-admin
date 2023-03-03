@@ -1285,7 +1285,8 @@ export default {
       console.log(row);
       this.qrcodeText = "";
       // this.urlValue = "http://192.168.0.120:8082/#/img/" + row.id + "/0011";
-      this.urlValue = "http://train.wistechx.cn/1?" + row.id;
+      // this.urlValue = "http://train.wistechx.cn/1?" + row.id;
+      this.urlValue = "https://wistechx.cn/1?A" + row.id;
 
       this.dialogQrcodeLookVisible = true;
 
